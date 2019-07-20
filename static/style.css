@@ -1,0 +1,75 @@
+html {
+    /* box-sizing: border-box;  */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    color: rgba(13, 199, 165, 0.747);
+    /* justify-content: inherit;
+    color: #0DC7A6;
+    justify-items: inherit;
+    */
+    text-align: center; 
+}
+body {
+    background: repeating-linear-gradient(
+  to right,
+  #56305C,
+  #56305C 5px,
+  #73417A 5px,
+  #73417A 6px
+);  
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 900;
+
+}
+#header {
+    display: grid;
+    grid-template-columns: 350px 900px;
+    grid-template-rows: 150px 75px 1fr;
+    grid-template-areas:
+        " photo who " 
+        " photo what " 
+        " photo where " ;
+    justify-content: center;
+}
+#photo {
+    grid-area: photo;
+    place-self: center;
+}
+#headshot {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    object-fit: cover;
+}
+#who {
+    grid-area: who;
+    align-self: end;
+}
+#who p{
+    margin:0;
+    font-size: 100px;
+    -webkit-text-stroke: 3px rgba(13, 199, 165, 0.747);
+}
+#what {
+    align-self: start;
+    grid-area: what;
+}
+#what p{
+    margin:0;
+    font-size: 45px;
+    line-height: 40px;
+}
+#where {
+    grid-area: where;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* new google landing page
+glass boxes
+sea glass */
