@@ -304,11 +304,11 @@ body {
 @media (min-width: 1400px) {
     #bio {
         grid-template-columns: 450px 950px;
-        grid-template-rows: 150px 65px 100px 100px 450px 200px 1fr;
+        grid-template-rows: 200px 65px 100px 150px 450px 200px 1fr;
     }
     #headshot {
-        height: 350px;
-        width: 350px;
+        height: 450px;
+        width: 450px;
         place-self: center;
     }
     i{
@@ -326,6 +326,10 @@ body {
     }
     #where {
         font-size: 50px;
+    }
+    #app-text{
+        width: 400px;
+
     }
     #app-img{
         height: 400px;
