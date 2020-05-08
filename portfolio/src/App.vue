@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <font-awesome-icon icon="coffee" />
     <Header></Header>
     <Content></Content>
   </div>
@@ -19,6 +20,18 @@ export default {
 </script>
 
 <style lang="scss">
+
+.nav-link{
+  font-size: 30px;
+}
+.dropdown-item {
+  font-size: 24px;
+};
+
 // @import 'assets/style.css';
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
 
 </style>

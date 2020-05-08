@@ -18,3 +18,9 @@
     </div>
     </div>
 </template>
+
+<script>
+export default {
+  title: "Tabatha's Trversal App"
+}
+</script>

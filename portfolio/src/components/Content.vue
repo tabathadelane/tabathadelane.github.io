@@ -1,6 +1,5 @@
 <template>
     <div>
-        <div><h3>This will be my new portfolio site.</h3></div>
         <b-navbar toggleable="md" type="light" >
             <!-- <b-navbar-brand>Test</b-navbar-brand> -->
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -31,3 +30,8 @@
         <router-view />
     </div>
 </template>
+
+<style scoped>
+
+
+</style>
