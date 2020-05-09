@@ -4,13 +4,13 @@
 set -e
 
 # build
-npm run build
+yarn run build
 
 # navigate into the build output directory
 cd dist
 
 # if you are deploying to a custom domain
-echo 'www.tabathadyoung.com' > CNAME
+echo 'tabathadyoung.com' > CNAME
 
 git init
 git add -A
@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:tabathadelane/tabathadelane.github.io/portfolio.git master:gh-pages
+git push -f git@github.com:tabathadelane/portfolio.git master:gh-pages
 
 cd -
