@@ -43,6 +43,8 @@ nav {
 }
 
 $primary: rgba(128, 0, 128, 0.637);
+$secondary: rgba(0, 128, 68, 0.637);
+
 
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';

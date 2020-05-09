@@ -7,7 +7,7 @@
         </b-row>
         <b-row>
             <b-col md="8" order-md="3">
-                <div class="center-col"><b-img class="headshot" fluid alt="Preview of Trversal" src="../assets/img/trversal-screenshot-tripview-googlesearch-sm.jpg"></b-img></div>
+                <div class="center-col"><b-img class="headshot" fluid alt="Preview of Trversal" src="../assets/img/trversal-demo.gif"></b-img></div>
                 
             </b-col>
             <b-col md="4" order-md="2">

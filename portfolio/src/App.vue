@@ -21,14 +21,15 @@ export default {
 
 <style lang="scss">
 $primary: rgba(128, 0, 128, 0.637);
+$secondary: rgba(0, 128, 79, 0.726);
+$almost-peach: rgb(255, 245, 240);
 
 body {
-  background-color:rgb(255, 241, 234) !important;
+  background-color: $almost-peach !important;
+  font-family: 'Lato', sans-serif !important;
 }
 
 
-// $font-family-base: 'Lato', sans-serif;
-// $font-family-base: 'Neuton', serif;
 h1, h2, h3, h4, nav {
   color: $primary;
   font-family: 'Neuton', serif !important;
@@ -55,7 +56,7 @@ svg {
   }
 };
 .navbar-brand {
-  color:rgb(255, 241, 234) !important;
+  color: $almost-peach !important;
 }
 #app {
   padding: 20px;

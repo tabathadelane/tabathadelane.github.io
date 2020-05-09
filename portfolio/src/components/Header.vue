@@ -52,6 +52,6 @@ h1, h2, h4 {
   font-weight: 700;
 }
 svg {
-  margin: 10px;
+  margin: 5px;
 }
 </style>
