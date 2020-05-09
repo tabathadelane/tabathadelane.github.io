@@ -1,7 +1,10 @@
 
 
 module.exports = {
-  publicPath: '/tabathadelane.github.io/portfolio/',
+  publicPath: process.env.NODE_ENV === 'production'
+  ? '/portfolio/'
+  : '/'
+  ,
   chainWebpack: config => {
     config.module
       .rule('vue')
