@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <font-awesome-icon icon="coffee" />
+    <!-- <font-awesome-icon icon="coffee" /> -->
     <Header></Header>
     <Content></Content>
   </div>
@@ -21,12 +21,26 @@ export default {
 
 <style lang="scss">
 
-.nav-link{
-  font-size: 30px;
-}
-.dropdown-item {
-  font-size: 24px;
+.navbar-dark .nav-link {
+  & a{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  & a:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
 };
+.navbar-light .nav-link {
+  & a{
+    color: rgba(0, 0, 0, 0.6);
+  }
+  & a:hover {
+    color: rgba(0, 0, 0, 0.9);
+  }
+};
+#app {
+  padding: 20px;
+  margin: 20px;
+}
 
 // @import 'assets/style.css';
 

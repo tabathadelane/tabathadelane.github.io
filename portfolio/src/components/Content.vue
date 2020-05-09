@@ -1,14 +1,19 @@
 <template>
     <div>
-        <b-navbar toggleable="md" type="light" >
-            <!-- <b-navbar-brand>Test</b-navbar-brand> -->
-            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <b-navbar toggleable="sm" type="dark" variant="info" >
+            <b-navbar-brand>Learn More:</b-navbar-brand>
+            <b-navbar-toggle target="nav-collapse" right></b-navbar-toggle>
             <b-collapse is-nav id="nav-collapse" >
                 <b-navbar-nav>
                     <b-nav-item>
                         <router-link to="/About">About Me</router-link>
                     </b-nav-item>
-                    <b-nav-item-dropdown text="Projects"  >
+                    <b-nav-item>
+                        <router-link to="/Contact">Contact</router-link>
+                    </b-nav-item>
+                </b-navbar-nav>
+                <b-navbar-nav class="ml-auto">
+                    <b-nav-item-dropdown text="Projects" right >
                         <b-dropdown-item>
                             <router-link to="/Trversal">Trversal</router-link>
                         </b-dropdown-item>
@@ -19,9 +24,6 @@
                             <router-link to="/Habitat">Habit@</router-link>
                         </b-dropdown-item>
                     </b-nav-item-dropdown>
-                    <b-nav-item>
-                        <router-link to="/Contact">Contact Me</router-link>
-                    </b-nav-item>
                 </b-navbar-nav>
             </b-collapse>
 
@@ -31,7 +33,18 @@
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+$info: rgba(128, 0, 128, 0.637);
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
 
 
 </style>
