@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- <font-awesome-icon icon="coffee" /> -->
+    <!-- <font-awesome-icon icon="dice-d20" /> -->
     <Header></Header>
     <Content></Content>
   </div>
@@ -20,6 +20,23 @@ export default {
 </script>
 
 <style lang="scss">
+$primary: rgba(128, 0, 128, 0.637);
+
+body {
+  background-color:rgb(255, 241, 234) !important;
+}
+
+
+// $font-family-base: 'Lato', sans-serif;
+// $font-family-base: 'Neuton', serif;
+h1, h2, h3, h4, nav {
+  color: $primary;
+  font-family: 'Neuton', serif !important;
+};
+
+svg {
+  color: $primary;
+}
 
 .navbar-dark .nav-link {
   & a{
@@ -37,6 +54,9 @@ export default {
     color: rgba(0, 0, 0, 0.9);
   }
 };
+.navbar-brand {
+  color:rgb(255, 241, 234) !important;
+}
 #app {
   padding: 20px;
   margin: 20px;

@@ -6,8 +6,8 @@
             <b-col sm="8" >
                 <h1>Tabatha Delane Young</h1>
                 <h2>Full Stack Developer</h2>
-                <h3> Portland Metro, Oregon</h3> <font-awesome-icon :icon="myIcon" />
-                
+                <h4>Portland Metro, Oregon</h4>
+                <h1> <font-awesome-icon :icon="icoffee" /><font-awesome-icon :icon="itree" /><font-awesome-icon :icon="idice" /><font-awesome-icon :icon="icat" /><font-awesome-icon :icon="ilaptop" /></h1>
             </b-col>
         </b-row>
     </b-container>
@@ -15,14 +15,18 @@
 
 <script>
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faTree, faDiceD20, faCat, faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 
 export default {
   name: 'MyComponent',
 
   data () {
     return {
-      myIcon: faCoffee
+      icoffee: faCoffee, 
+      itree: faTree,
+      idice: faDiceD20,
+      icat: faCat,
+      ilaptop: faLaptopCode,
     }
   },
 
@@ -36,11 +40,18 @@ export default {
 .headshot {
   height: 80%;
   width: 80%;
+  border: 6px solid rgba(128, 0, 128, 0.637);
 }
 .center-header {
   text-align: center;
 }
 .center {
   margin: auto;
+}
+h1, h2, h4 {
+  font-weight: 700;
+}
+svg {
+  margin: 10px;
 }
 </style>

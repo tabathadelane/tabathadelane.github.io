@@ -1,12 +1,12 @@
 <template>
     <div>
-        <b-navbar toggleable="sm" type="dark" variant="info" >
+        <b-navbar toggleable="sm" type="dark" variant="primary" >
             <b-navbar-brand>Learn More:</b-navbar-brand>
             <b-navbar-toggle target="nav-collapse" right></b-navbar-toggle>
             <b-collapse is-nav id="nav-collapse" >
                 <b-navbar-nav>
                     <b-nav-item>
-                        <router-link to="/About">About Me</router-link>
+                        <router-link to="/About">About</router-link>
                     </b-nav-item>
                     <b-nav-item>
                         <router-link to="/Contact">Contact</router-link>
@@ -38,13 +38,13 @@
 nav {
     margin-top: 20px;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 
-$info: rgba(128, 0, 128, 0.637);
+$primary: rgba(128, 0, 128, 0.637);
 
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
-
-
 
 </style>
