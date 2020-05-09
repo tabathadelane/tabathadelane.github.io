@@ -2,7 +2,7 @@
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-  ? '/portfolio/'
+  ? '/tabathadelane.github.io/portfolio/'
   : '/'
   ,
   chainWebpack: config => {
