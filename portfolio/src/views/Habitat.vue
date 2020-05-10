@@ -11,14 +11,18 @@
                 
             </b-col>
             <b-col md="4" order-md="2">
-                <div class="center-col">This is where I will type a bunch of info about each project. This will be a nice size paragraph that summarizes what the application does. I might mention why I decided to make it, and why I chose certain technologies. If there is too much say, mention that it is expained on the Github README. What problem does this project aim to solve? What did you learn about or attempt to learn about from this project?</div>
+                <div class="center-col">
+                    <h4>A habit tracking application</h4>
+                    <p>This project was built during a 1-day AWS Hackathon on a team of 5. I contributed by writing the python Lambda functions and assisting with CSS styling and logo design. </p>
+                    <br>
+                    <p>“Habitat” was created with the purpose to help users start good habits by keeping streaks. The goal was to use AWS to keep track of the streaks. If a user entered that they did their task that day, the Lambda would update the streak count in the database. Cloudwatch Events checked the time twice each day. In the evening, if the user hadn’t completed their task, it would trigger an SNS warning. At midnight, if they hadn't done it, it would erase the streak! </p></div>
                 </b-col>
         </b-row>
         <b-row>
             <b-col md="8" order-md="5">
                 <div class="center-col">
                     <div><h3>Tech Stack:</h3></div>
-                    <div> Python, Django, DjangoRest, Javascript, Vue, CSS/HTML</div>
+                    <div>Python, AWS Lambda, DynamoDB, HTML, CSS, Javascript, React.js</div>
                 </div>
             </b-col>
             <b-col md="4" order-md="4">

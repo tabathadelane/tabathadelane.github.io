@@ -11,7 +11,11 @@
                 
             </b-col>
             <b-col md="4" order-md="2">
-                <div class="center-col">This is where I will type a bunch of info about each project. This will be a nice size paragraph that summarizes what the application does. I might mention why I decided to make it, and why I chose certain technologies. If there is too much say, mention that it is expained on the Github README. What problem does this project aim to solve? What did you learn about or attempt to learn about from this project?</div>
+                <div class="center-col"><h4>An itenerary building web application.</h4>
+                <br>
+                <p>This app dynamically interacts with Google Maps to calculate the most up to date travel times between your selected locations. Start a trip and add the points of interest you would like to see each day. The app will keep track of the time needed throughout the day to travel between each place so you can realistically see how much you can fit into your trip and stay on schedule!</p>
+                <br>
+                <p>This is my capstone from PDX Code Guild. It is very much in an MVP state. I have listed the future plans for this project on the Github README linked below.</p></div>
                 </b-col>
         </b-row>
         <b-row>
