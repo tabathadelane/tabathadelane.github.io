@@ -27,7 +27,7 @@
             </b-col>
             <b-col md="4" order-md="4">
                 <div class="center-col">
-                <a href="">View the Source Code on Github</a>
+                <a href="https://github.com/tobyfee/habitat">View the Source Code on Github</a>
                     
                 </div>
             </b-col>
