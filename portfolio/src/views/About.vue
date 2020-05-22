@@ -13,6 +13,6 @@
 
 <script>
 export default {
-  title: "Tabatha Young"
+  title: "Tabatha Young: The Website"
 }
 </script>
