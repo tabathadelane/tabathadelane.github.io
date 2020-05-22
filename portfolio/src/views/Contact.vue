@@ -2,7 +2,7 @@
     <div>
         <div><h1>Contact Me</h1></div>
               <h3><font-awesome-icon :icon="iresume" />
-              <a href="https://drive.google.com/file/d/1VkyhW-Nezg8MK9KLRDWN6SJMElYsSwsQ/view?usp=sharing" target="_blank"><i class="fas fa-sticky-note"></i>RESUME</a></h3>
+              <a href="https://drive.google.com/open?id=1yaStgCMFZ9CGyhsPdrxobGHP1DSV0Evs" target="_blank"><i class="fas fa-sticky-note"></i>RESUME</a></h3>
               <h3><font-awesome-icon :icon="ilinkedin" />
               <a href="https://linkedin.com/in/tabathadelaneyoung" target="_blank">LINKEDIN</a></h3>
               <h3><font-awesome-icon :icon="igithub" />
