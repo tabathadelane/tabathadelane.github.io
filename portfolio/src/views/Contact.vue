@@ -2,11 +2,11 @@
     <div>
         <div><h1>Contact Me</h1></div>
               <h3><font-awesome-icon :icon="iresume" />
-              <a href="https://drive.google.com/open?id=1yaStgCMFZ9CGyhsPdrxobGHP1DSV0Evs" target="_blank"><i class="fas fa-sticky-note"></i>RESUME</a></h3>
+              <a href="https://drive.google.com/file/d/1WzmZMEYfXqJ7Xa3p-K1PyB3fYZ5iGVxl/view?usp=sharing" target="_blank"><i class="fas fa-sticky-note"></i>RESUME</a></h3>
               <h3><font-awesome-icon :icon="ilinkedin" />
               <a href="https://linkedin.com/in/tabathadelaneyoung" target="_blank">LINKEDIN</a></h3>
               <h3><font-awesome-icon :icon="igithub" />
-              <a href="https://github.com/tabathadelane" target="_blank">GITHUB</a></h3>
+              <a href="https://github.com/tabathadelane/code-compendium" target="_blank">GITHUB</a></h3>
               <h3><font-awesome-icon :icon="iemail" />
               <a href="mailto:tabathadelane@gmail.com" target="_blank">EMAIL</a></h3>
               <h3><font-awesome-icon :icon="itwitter" />
